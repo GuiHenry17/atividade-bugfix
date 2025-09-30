@@ -3,5 +3,5 @@ function calcularMedia(notas) {
     for (let i = 0; i < notas.length; i++) {
         soma += notas[i];
     }
-    return soma * 4;
+    return soma / notas.length;
 }
